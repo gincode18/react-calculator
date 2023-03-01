@@ -15,3 +15,34 @@
   --calc-bg: #373737;
 }
 
+.calculator__btns .btn__op {
+  color: var(--calc-btn-color);
+}
+.calculator__result__exp {
+  font-size: 3.5rem;
+  line-height: 1;
+  transform-origin: right bottom;
+  transition: transform 0.3s ease;
+  color: var(--calc-res-color);
+}
+.calculator__result__exp {
+  font-size: 3.5rem;
+  line-height: 1;
+  transform-origin: right bottom;
+  transition: transform 0.3s ease;
+  color: var(--calc-res-color);
+}
+
+.calculator__result__exp:last-child {
+  position: absolute;
+  right: 0;
+}
+
+.calculator__result__exp span {
+  display: inline-block;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+
+
